@@ -2,19 +2,32 @@
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: #fff;
-
+border-radius: 6px;
   padding: 15px 30px;
   margin-right: 15;
   font-size: 12px;
   cursor: pointer;
   transition: 0.3s ease all;
+  margin-bottom: 6.5rem;
 }
 
 .botao:hover {
   background-color: #fff;
   color: #000;
-  box-shadow: 0 2px 3px #777;
+  box-shadow: 0 2px 3px #fff;
 }
+
+#btn-assistir {
+  background-color: #fff;
+   color: #000;
+}
+
+#btn-assistir:hover {
+  background-color: #f3ffff;
+   color: #000;
+    box-shadow: 0 2px 3px #fff;
+}
+
 
 .botao i {
   margin-right: 8px;

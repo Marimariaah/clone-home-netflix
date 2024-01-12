@@ -1,10 +1,9 @@
 .filme-principal {
   font-size: 16px;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("../img/capa-house.jpg");
+  url("../img/capa-house.jpg");
 
-  height: 50vh;
+  height: 80vh;
   background-size: cover;
 
   display: flex;
@@ -14,8 +13,8 @@
 }
 
 .filme-principal .descricao {
-  margin-top: 10px;
-  margin-bottom: 40px;
+   margin-top: 4rem;
+   margin-bottom: 10rem; 
 }
 
 .filme-principal .titulo {
@@ -36,4 +35,9 @@
   height: 100%;
   width: 100%;
   display: block;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
 }

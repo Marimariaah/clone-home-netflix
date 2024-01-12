@@ -7,16 +7,16 @@ header .container {
 
 header .logo {
   color: var(--vermelho);
-  margin-left: 10px;
+  margin-left: 0.6rem;
   font-family: "Arial Black", Times;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 header nav a {
-  margin-left: 10px;
+  margin-left: 0.6rem;
   text-decoration: none;
   color: #aaa;
-  margin-right: 10px;
+  margin-right: 0.6rem;
 }
 
 header nav a:hover {
